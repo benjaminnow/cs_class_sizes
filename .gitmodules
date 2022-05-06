@@ -1,0 +1,3 @@
+[submodule "uwisc/madgrades-extractor"]
+	path = uwisc/madgrades-extractor
+	url = git@github.com:Madgrades/madgrades-extractor.git
