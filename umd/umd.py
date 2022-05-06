@@ -10,37 +10,34 @@ cs_course_nums = []
 for course in cs_courses_data:
     cs_course_nums.append(course['department'] + str(course['course_number']))
 
-
-# create dictionary with key as course name and value as sum of grades in course for most recent semester
-course_counts = {}
-for course in cs_course_nums:
-    course_counts[course] = 0
-
+class_names = []
+class_sizes = []
 
 # get grades for each course in dictionary
 semester = "202108" # fall 2021
-for course in course_counts.keys():
+for course in cs_course_nums:
     params = {"course": course, "semester": semester}
 
     # for each course returns a list of sections with corresponding grade data
     sections = requests.get("https://api.planetterp.com/v1/grades", params=params).json()
 
-    total_students = 0
+    
     for section in sections:
+        total_students_section = 0
         # convert section dictionary into list so only preserve items that have grade counts
         section_grades = list(section.items())[4:]
         for grade in section_grades:
-            # add number of students who got this grade in this section to total students for class
-            total_students += grade[1]
+            # add number of students who got this grade in this section to total students in section
+            total_students_section += grade[1]
+        
+        # append section info to lists
+        class_names.append(course)
+        class_sizes.append(total_students_section)
 
-    # print("{}: {}".format(course, total_students))
-
-    course_counts[course] = total_students
-
-    #sleep(0.5)
+    sleep(0.5)
 
 # create dataframe from course counts
-data_dict = {"course_name": course_counts.keys(), "count": course_counts.values()}
+data_dict = {"course_name": class_names, "count": class_sizes}
 
 courses_df = pd.DataFrame.from_dict(data_dict)
 
