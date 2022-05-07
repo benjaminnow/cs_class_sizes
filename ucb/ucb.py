@@ -11,6 +11,7 @@ session = HTMLSession()
 
 course_names = []
 course_codes = []
+course_types = []
 course_enrollments = []
 course_capacities = []
 
@@ -38,6 +39,7 @@ for i in range(0, pages):
     for data in results_data:
         course_names.append(data["class"]["course"]["title"])
         course_codes.append(data["class"]["course"]["displayName"])
+        course_types.append(data["component"]["code"])
         course_enrollments.append(data["enrollmentStatus"]["enrolledCount"])
         course_capacities.append(data["enrollmentStatus"]["maxEnroll"])
 
@@ -60,6 +62,7 @@ for i in range(0, pages):
             # add cross listed course data
             course_names.append(data["class"]["course"]["title"])
             course_codes.append(data["class"]["course"]["displayName"])
+            course_types.append(data["component"]["code"])
             course_enrollments.append(data["enrollmentStatus"]["enrolledCount"])
             course_capacities.append(data["enrollmentStatus"]["maxEnroll"])
 
@@ -69,6 +72,6 @@ for i in range(0, pages):
     time.sleep(1)
 
 
-classes_df = pd.DataFrame({"course_code": course_codes, "course_name": course_names, "course_enrollment": course_enrollments, "course_capacity": course_capacities})
+classes_df = pd.DataFrame({"course_code": course_codes, "course_type": course_types, "course_name": course_names, "course_enrollment": course_enrollments, "course_capacity": course_capacities})
 classes_df.to_csv("ucb.csv")
 print(classes_df)
