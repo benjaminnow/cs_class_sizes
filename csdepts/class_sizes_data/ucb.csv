@@ -1,0 +1,85 @@
+,course_code,course_type,course_name,course_enrollment,course_capacity
+0,COMPSCI C8,LEC,Foundations of Data Science,0,0
+1,COMPSCI 10,LEC,The Beauty and Joy of Computing,370,350
+2,COMPSCI 24,SEM,Freshman Seminars,0,12
+3,COMPSCI 24,SEM,Freshman Seminars,13,15
+4,COMPSCI 24,SEM,Freshman Seminars,20,20
+5,COMPSCI 47A,SLF,Completion of Work in Computer Science 61A,15,40
+6,COMPSCI 47B,SLF,Completion of Work in Computer Science 61B,40,40
+7,COMPSCI 47B,SLF,Completion of Work in Computer Science 61B,1,1
+8,COMPSCI 47C,SLF,Completion of Work in Computer Science 61C,2,40
+9,COMPSCI 61A,LEC,The Structure and Interpretation of Computer Programs,1666,1900
+10,COMPSCI 61B,LEC,Data Structures,904,1000
+11,COMPSCI 61C,LEC,Great Ideas of Computer Architecture (Machine Structures),962,1175
+12,COMPSCI 70,LEC,Discrete Mathematics and Probability Theory,785,850
+13,COMPSCI 88,LEC,Computational Structures in Data Science,261,265
+14,COMPSCI C100,LEC,Principles & Techniques of Data Science,0,0
+15,COMPSCI 161,LEC,Computer Security,609,625
+16,COMPSCI 162,LEC,Operating Systems and System Programming,415,410
+17,COMPSCI 164,LEC,Programming Languages and Compilers,124,128
+18,DATA C8,LEC,Foundations of Data Science,1436,1440
+19,INFO C8,LEC,Foundations of Data Science,0,0
+20,STAT C8,LEC,Foundations of Data Science,0,0
+21,DATA C100,LEC,Principles & Techniques of Data Science,919,920
+22,COMPSCI 169A,LEC,Introduction to Software Engineering,296,315
+23,COMPSCI 170,LEC,Efficient Algorithms and Intractable Problems,722,730
+24,COMPSCI W186,WBL,Introduction to Database Systems,612,637
+25,COMPSCI 188,LEC,Introduction to Artificial Intelligence,651,685
+26,COMPSCI 189,LEC,Introduction to Machine Learning,270,290
+27,COMPSCI C191,LEC,Quantum Information Science and Technology,0,0
+28,COMPSCI 194,LEC,Special Topics,70,98
+29,COMPSCI 194,LEC,Special Topics,180,177
+30,COMPSCI 194,LEC,Special Topics,83,80
+31,COMPSCI 194,LEC,Special Topics,34,40
+32,COMPSCI 194,LEC,Special Topics,174,190
+33,COMPSCI 195,LEC,Social Implications of Computer Technology,337,430
+34,COMPSCI H196A,IND,Senior Honors Thesis Research,4,10
+35,COMPSCI H196A,IND,Senior Honors Thesis Research,1,50
+36,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,53,100
+37,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,5,50
+38,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,29,40
+39,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,114,150
+40,CHEM C191,LEC,Quantum Information Science and Technology,15,27
+41,PHYSICS C191,LEC,Quantum Information Science and Technology,56,75
+42,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,100,120
+43,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,19,30
+44,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,30,300
+45,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,21,60
+46,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,19,50
+47,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,62,100
+48,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,36,50
+49,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,34,45
+50,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,15,30
+51,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,503,511
+52,COMPSCI 198,GRP,Directed Group Studies for Advanced Undergraduates,23,30
+53,COMPSCI 199,IND,Supervised Independent Study,1,1
+54,COMPSCI C249A,LEC,Introduction to Embedded Systems,7,8
+55,COMPSCI 262A,LEC,Advanced Topics in Computer Systems,39,45
+56,COMPSCI 263,LEC,Design of Programming Languages,41,59
+57,COMPSCI 264,LEC,Implementation of Programming Languages,16,27
+58,COMPSCI C281A,LEC,Statistical Learning Theory,86,120
+59,COMPSCI 285,LEC,"Deep Reinforcement Learning, Decision Making, and Control",228,235
+60,ELENG C249A,LEC,Introduction to Embedded Systems,15,17
+61,STAT C241A,LEC,Statistical Learning Theory,0,0
+62,COMPSCI 289A,LEC,Introduction to Machine Learning,65,50
+63,COMPSCI 294,LEC,Special Topics,18,0
+64,COMPSCI 294,LEC,Special Topics,31,29
+65,COMPSCI 294,LEC,Special Topics,98,98
+66,COMPSCI 294,LEC,Special Topics,1,18
+67,COMPSCI 294,LEC,Special Topics,44,45
+68,COMPSCI 294,LEC,Special Topics,16,30
+69,COMPSCI 294,LEC,Special Topics,26,32
+70,COMPSCI 294,LEC,Special Topics,49,100
+71,COMPSCI 294,LEC,Special Topics,49,50
+72,COMPSCI 294,LEC,Special Topics,32,0
+73,COMPSCI 294,LEC,Special Topics,8,35
+74,COMPSCI 294,LEC,Special Topics,60,100
+75,COMPSCI 294,LEC,Special Topics,25,30
+76,COMPSCI 294,LEC,Special Topics,13,35
+77,COMPSCI 294,LEC,Special Topics,16,20
+78,COMPSCI 298,LEC,"Group Studies Seminars, or Group Research",1,98
+79,COMPSCI 298,LEC,"Group Studies Seminars, or Group Research",22,28
+80,COMPSCI 298,LEC,"Group Studies Seminars, or Group Research",11,20
+81,COMPSCI 370,LEC,Adaptive Instruction Methods in Computer Science,10,80
+82,COMPSCI 370,LEC,Adaptive Instruction Methods in Computer Science,28,80
+83,COMPSCI 375,DIS,Teaching Techniques for Computer Science,94,100

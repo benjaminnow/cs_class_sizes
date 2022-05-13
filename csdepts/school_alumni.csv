@@ -1,0 +1,151 @@
+school,company,count
+Carnegie Mellon University,Meta,621
+Carnegie Mellon University,Amazon,1118
+Carnegie Mellon University,Apple,1011
+Carnegie Mellon University,Microsoft,1101
+Carnegie Mellon University,Google,2782
+University of Illinois at Urbana-Champaign,Meta,525
+University of Illinois at Urbana-Champaign,Amazon,1440
+University of Illinois at Urbana-Champaign,Apple,919
+University of Illinois at Urbana-Champaign,Microsoft,1251
+University of Illinois at Urbana-Champaign,Google,1803
+Massachusetts Institute of Technology,Meta,367
+Massachusetts Institute of Technology,Amazon,992
+Massachusetts Institute of Technology,Apple,945
+Massachusetts Institute of Technology,Microsoft,991
+Massachusetts Institute of Technology,Google,2002
+University of California - San Diego,Meta,460
+University of California - San Diego,Amazon,1188
+University of California - San Diego,Apple,979
+University of California - San Diego,Microsoft,617
+University of California - San Diego,Google,1677
+Stanford University,Meta,1019
+Stanford University,Amazon,1072
+Stanford University,Apple,2503
+Stanford University,Microsoft,1181
+Stanford University,Google,4256
+University of Michigan,Meta,467
+University of Michigan,Amazon,1365
+University of Michigan,Apple,921
+University of Michigan,Microsoft,983
+University of Michigan,Google,1782
+University of California - Berkeley,Meta,1153
+University of California - Berkeley,Amazon,1639
+University of California - Berkeley,Apple,2232
+University of California - Berkeley,Microsoft,1134
+University of California - Berkeley,Google,4363
+Cornell University,Meta,521
+Cornell University,Amazon,1228
+Cornell University,Apple,779
+Cornell University,Microsoft,995
+Cornell University,Google,1929
+University of Washington,Meta,865
+University of Washington,Amazon,5030
+University of Washington,Apple,755
+University of Washington,Microsoft,7171
+University of Washington,Google,1722
+Georgia Institute of Technology,Meta,594
+Georgia Institute of Technology,Amazon,1744
+Georgia Institute of Technology,Apple,1078
+Georgia Institute of Technology,Microsoft,1819
+Georgia Institute of Technology,Google,1904
+University of Maryland - College Park,Meta,288
+University of Maryland - College Park,Amazon,1004
+University of Maryland - College Park,Apple,443
+University of Maryland - College Park,Microsoft,769
+University of Maryland - College Park,Google,848
+University of Wisconsin - Madison,Meta,247
+University of Wisconsin - Madison,Amazon,755
+University of Wisconsin - Madison,Apple,421
+University of Wisconsin - Madison,Microsoft,586
+University of Wisconsin - Madison,Google,868
+Columbia University,Meta,519
+Columbia University,Amazon,998
+Columbia University,Apple,517
+Columbia University,Microsoft,618
+Columbia University,Google,1649
+Northeastern University,Meta,295
+Northeastern University,Amazon,1314
+Northeastern University,Apple,472
+Northeastern University,Microsoft,665
+Northeastern University,Google,763
+University of Texas at Austin,Meta,584
+University of Texas at Austin,Amazon,1335
+University of Texas at Austin,Apple,1587
+University of Texas at Austin,Microsoft,1018
+University of Texas at Austin,Google,1485
+University of Pennsylvania,Meta,301
+University of Pennsylvania,Amazon,683
+University of Pennsylvania,Apple,325
+University of Pennsylvania,Microsoft,516
+University of Pennsylvania,Google,1088
+Purdue University,Meta,274
+Purdue University,Amazon,1350
+Purdue University,Apple,711
+Purdue University,Microsoft,899
+Purdue University,Google,830
+University of California - Los Angeles,Meta,691
+University of California - Los Angeles,Amazon,1831
+University of California - Los Angeles,Apple,1562
+University of California - Los Angeles,Microsoft,840
+University of California - Los Angeles,Google,2030
+University of Southern California,Meta,678
+University of Southern California,Amazon,2248
+University of Southern California,Apple,1504
+University of Southern California,Microsoft,1276
+University of Southern California,Google,2160
+University of Massachusetts Amherst,Meta,120
+University of Massachusetts Amherst,Amazon,505
+University of Massachusetts Amherst,Apple,230
+University of Massachusetts Amherst,Microsoft,320
+University of Massachusetts Amherst,Google,366
+New York University,Meta,563
+New York University,Amazon,1468
+New York University,Apple,700
+New York University,Microsoft,622
+New York University,Google,1685
+University of California - Santa Barbara,Meta,304
+University of California - Santa Barbara,Amazon,537
+University of California - Santa Barbara,Apple,623
+University of California - Santa Barbara,Microsoft,358
+University of California - Santa Barbara,Google,858
+Rutgers University,Meta,200
+Rutgers University,Amazon,942
+Rutgers University,Apple,312
+Rutgers University,Microsoft,366
+Rutgers University,Google,647
+University of California - Irvine,Meta,304
+University of California - Irvine,Amazon,1010
+University of California - Irvine,Apple,566
+University of California - Irvine,Microsoft,547
+University of California - Irvine,Google,1000
+Stony Brook University,Meta,152
+Stony Brook University,Amazon,584
+Stony Brook University,Apple,263
+Stony Brook University,Microsoft,340
+Stony Brook University,Google,596
+Princeton University,Meta,151
+Princeton University,Amazon,264
+Princeton University,Apple,157
+Princeton University,Microsoft,300
+Princeton University,Google,724
+University of Chicago,Meta,177
+University of Chicago,Amazon,307
+University of Chicago,Apple,137
+University of Chicago,Microsoft,203
+University of Chicago,Google,519
+Pennsylvannia State University,Meta,276
+Pennsylvannia State University,Amazon,1485
+Pennsylvannia State University,Apple,600
+Pennsylvannia State University,Microsoft,735
+Pennsylvannia State University,Google,802
+Harvard University,Meta,353
+Harvard University,Amazon,901
+Harvard University,Apple,817
+Harvard University,Microsoft,786
+Harvard University,Google,1328
+Northwestern University,Meta,310
+Northwestern University,Amazon,623
+Northwestern University,Apple,393
+Northwestern University,Microsoft,424
+Northwestern University,Google,899

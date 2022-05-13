@@ -1,0 +1,36 @@
+University,Degrees Conferred,Degrees Conferred Source,Date,Notes
+Carnegie Mellon University,230,https://www.cmu.edu/ira/degrees-granted/ay2020-21-degrees-granted-scs.pdf,20-21,
+University of Illinois at Urbana-Champaign,544,https://cs.illinois.edu/about/statistics,20-21,
+Massachusetts Institute of Technology,408,https://registrar.mit.edu/stats-reports/degrees-awarded,20-21,"added together cs eng, cs molec bio, cs econ, eecs"
+University of California - San Diego,799,https://ir.ucsd.edu/undergrad/stats-data/ug-degree.html,20-21,cs and ds
+Stanford University,307,https://registrar.stanford.edu/everyone/degrees-conferred/degrees-conferred-2019-20#bachelors,19-20,
+University of Michigan,1186,"https://cse.engin.umich.edu/about/by-the-numbers/
+https://ro.umich.edu/reports/enrollment",20-21,"second link has current undergraduate enrollment - in engineering and liberal arts college
+counting cs and datascience as taking up cs resources
+cse - 1515, dse - 101, cs - 855, ds - 178
+
+cs website link seems to count all areas above :)"
+University of California - Berkeley,1938,https://pages.github.berkeley.edu/OPA/our-berkeley/degree-recipients-by-major.html,20-21,"ls cs - 802, ls ds - 620, eecs - 516"
+Cornell University,300+,https://www.cs.cornell.edu/information/about,20-21,"assuming most recent data, esitmate not exact :("
+University of Washington,450+,https://www.cs.washington.edu/about_us/,20-21,"estimate, not exact"
+Georgia Institute of Technology,737,https://lite.gatech.edu/lite_script/dashboards/degrees_awarded.html,20-21,
+University of Maryland - College Park,797,https://irpa.umd.edu/CampusCounts/Retention/ug_degree_summ.pdf,20-21,
+University of Wisconsin - Madison,675,https://tableau.wisconsin.edu/views/TrendsinDegreesandRelatedData_0/MajorsCounts?%3Aembed=y&%3AshowAppBanner=false&%3AshowShareOptions=true&%3Adisplay_count=no&%3AshowVizHome=no,20-21,
+Columbia University,190,https://opir.columbia.edu/sites/default/files/content/Statistical%20Abstract/en_ug_degrees_by_program_of_study.pdf,20-21,
+Northeastern University,,,,"no public data, behind northeastern login"
+University of Texas at Austin,385,https://catalog.utexas.edu/general-information/appendices/statistical-summaries/,19-20,
+University of Pennsylvania,107,https://www.scholarships.com/colleges/university-of-pennsylvania/degrees-conferred/,19-20,not the best source
+Purdue University,466,https://wpvwebsas03.www.purdue.edu/cgi-bin/broker.exe?_service=default&_server=wpvwebsas03.itap.purdue.edu&_port=5001&_sessionid=MuaaTQPGR52&_program=oirprgms.ods_degree4_cip.sas&save_dept=Computer%20Science,20-21,includes datascience
+University of California - Los Angeles,334,https://www.cs.ucla.edu/,20-21,"1337 is total majors, divided by 4 to get approx degrees conferred per year"
+University of Southern California,247,https://oir.usc.edu/wp-content/uploads/2021/09/IPEDS_Completions_2020-21.pdf,20-21,
+University of Massachusetts Amherst,271,https://www.umass.edu/uair/sites/default/files/publications/factbooks/degrees/FB_de_05.pdf,20-21,
+New York University,384,https://datausa.io/profile/university/new-york-university#graduates,18-19,"bad source, includes infosci but no info sci major so prob just cs"
+University of California - Santa Barbara,160,https://bap.ucsb.edu/institutional-research/ucsb-information-center/degrees-conferred,20-21,
+Rutgers University,572,https://datausa.io/profile/university/rutgers-university-new-brunswick#graduates,19-20,"bad source, may include info sci"
+University of California - Irvine,1063,https://datahub.oapir.uci.edu/Degrees-Awarded-Dashboard.php,20-21,"includes: cse, cs, ds, computer game science, and software engineering"
+Stony Brook University,250,https://datausa.io/profile/university/stony-brook-university,19-20,bad source??
+Princeton University,150,https://tableaupublic.princeton.edu/t/OfficeoftheRegistrarStatistics/views/Registrar_DegreesConferred/DegreesConferred?:isGuestRedirectFromVizportal=y&:embed=y,20-21,
+University of Chicago,80,https://www.scholarships.com/colleges/university-of-chicago/degrees-conferred/,19-20,from ipeds
+Pennsylvannia State University,413,https://datadigest.psu.edu/degrees-awarded/,20-21,"includes: cs, ds"
+Harvard University,131,https://oir.harvard.edu/fact-book/degrees-awarded-summary,20-21,
+Northwestern University,107,https://www.registrar.northwestern.edu/documents/records/degrees-conferred/2020_21degrees.pdf,20-21,

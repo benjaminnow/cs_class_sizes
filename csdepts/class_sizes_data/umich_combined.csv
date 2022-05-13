@@ -1,0 +1,195 @@
+course_code,course_time,course_instructors,course_enrollment,course_capacity
+EECS 183,TuTh11:30AM-1:00PM,"['Kloosterman, John Sidney', 'Tabassum, Nuzhat']",189,192
+EECS 183,TuTh1:00PM-2:30PM,"['Arthur, William', 'Tabassum, Nuzhat']",250,250
+EECS 183,TuTh2:30PM-4:00PM,"['Kloosterman, John Sidney', 'Tabassum, Nuzhat']",224,225
+EECS 183,TuTh4:00PM-5:30PM,"['Arthur, William', 'Tabassum, Nuzhat']",257,260
+EECS 183,TuTh8:30AM-10:00AM,"['Tabassum, Nuzhat', 'Torralva, Ben']",220,245
+EECS 198,Fr9:30AM-11:30AM,"['Ignat, Oana']",9,50
+EECS 200,Tu3:00PM-4:30PM,"['Ali, Maha A', 'Pierce, Leland E']",70,80
+EECS 201,Fr10:30AM-12:00PM,"['Bhattu, Sowgandhi', 'Nguyen, Brandon Trinh', ""O'Neill, John Paul""]",222,234
+EECS 203,TBATBA,"['Diaz, Kimberly Khalsa', 'Graetz, Emily', 'Wakefield, Gregory H']",0,0
+EECS 203,TuTh10:30AM-12:00PM,"['Chiang, Diane', 'Diaz, Kimberly Khalsa']",154,155
+EECS 203,TuTh3:00PM-4:30PM,"['Chiang, Diane', 'Graetz, Emily']",144,145
+EECS 203,TuTh4:00PM-5:30PM,"['Chiang, Diane', 'Wakefield, Gregory H']",147,165
+EECS 203,TuTh4:30PM-6:00PM,"['Chiang, Diane', 'Graetz, Emily']",163,165
+EECS 203,TuTh8:30AM-10:00AM,"['Chiang, Diane', 'Zhu, Leqi']",146,145
+EECS 203,TuTh9:00AM-10:30AM,"['Chiang, Diane', 'Diaz, Kimberly Khalsa']",175,185
+EECS 215,MoWe12:00PM-1:30PM,"['Terry Jr, Fred Lewis']",129,115
+EECS 215,MoWe9:00AM-10:30AM,"['Terry Jr, Fred Lewis']",110,110
+EECS 216,TuTh10:30AM-12:00PM,"['Lafortune, Stephane']",87,90
+EECS 216,TuTh1:30PM-3:00PM,"['Lafortune, Stephane']",50,55
+EECS 230,TuTh12:00PM-1:30PM,"['Lee, Somin Eunice']",73,75
+EECS 270,MoWe10:30AM-12:00PM,"['Bolton, Connor', 'Sakallah, Karem A']",151,162
+EECS 280,MoWe12:00PM-1:30PM,"['Juett, James']",139,139
+EECS 280,MoWe1:30PM-3:00PM,"['Beaumont, Jonathan']",208,210
+EECS 280,MoWe4:00PM-5:30PM,"['Beaumont, Jonathan']",186,190
+EECS 280,MoWe4:30PM-6:00PM,"['Saleem, Sofia']",150,156
+EECS 280,MoWe9:00AM-10:30AM,"['Juett, James']",238,239
+EECS 280,TuTh6:00PM-7:30PM,"['Molaei, Somayeh']",152,154
+EECS 281,TuTh10:30AM-12:00PM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Darden, Marcus M', 'Li, Annie']",231,234
+EECS 281,TuTh12:00PM-1:30PM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Li, Annie', 'Paoletti, David R']",145,145
+EECS 281,TuTh1:30PM-3:00PM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Li, Annie', 'Paoletti, David R']",146,145
+EECS 281,TuTh3:00PM-4:30PM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Derezinski, Michal', 'Li, Annie']",157,156
+EECS 281,TuTh4:30PM-6:00PM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Garcia-Ramirez, Hector', 'Li, Annie']",136,154
+EECS 281,TuTh9:00AM-10:30AM,"['Anason, Nicholas David', 'Coden, Megan Lynne', 'Cruz, Surya', 'Darden, Marcus M', 'Li, Annie']",156,156
+EECS 285,We1:00AM-3:00AM,"['Ganesh, Rithika', 'Smith, Kristopher Jorge', 'Wang, William Jialian']",1,0
+EECS 285,We1:30PM-3:30PM,"['Ganesh, Rithika', 'Smith, Kristopher Jorge', 'Wang, William Jialian']",137,154
+EECS 300,Th3:00PM-5:00PM,"['Ali, Maha A', 'Gilchrist, Brian E']",44,48
+EECS 301,MoWe9:00AM-10:30AM,"['Meerkov, Semyon M']",74,76
+EECS 311,TuTh9:00AM-10:30AM,"['Flynn, Michael']",20,36
+EECS 312,MoWe1:30PM-3:00PM,"['Garmire, David']",37,45
+EECS 314,MoWe3:00PM-4:30PM,"['Ganago, Alexander O']",155,162
+EECS 320,MoWe10:30AM-12:00PM,"['Mi, Zetian']",49,65
+EECS 330,TuTh12:00PM-1:30PM,"['Tsang, Leung']",13,30
+EECS 334,WeFr10:00AM-11:30AM,"['Deotare, Parag B']",19,26
+EECS 351,MoWe12:00PM-1:30PM,"['Na, Sangsin']",44,60
+EECS 370,TuTh12:00PM-1:30PM,"['Bailey, Jonathan', 'Haye, K Faryab', 'Hong, Jack', 'Liu, Daniel', 'Mudge, Trevor N', 'Narayanasamy, Satish', 'Tang, Lingjia', 'Yang, Yichen', 'Zamirai, Pedram']",150,150
+EECS 370,TuTh1:30PM-3:00PM,"['Bailey, Jonathan', 'Haye, K Faryab', 'Hong, Jack', 'Liu, Daniel', 'Mudge, Trevor N', 'Narayanasamy, Satish', 'Tang, Lingjia', 'Yang, Yichen', 'Zamirai, Pedram']",154,158
+EECS 370,TuTh3:00PM-4:30PM,"['Bailey, Jonathan', 'Haye, K Faryab', 'Hong, Jack', 'Liu, Daniel', 'Mudge, Trevor N', 'Narayanasamy, Satish', 'Tang, Lingjia', 'Yang, Yichen', 'Zamirai, Pedram']",177,222
+EECS 370,TuTh4:30PM-6:00PM,"['Bailey, Jonathan', 'Haye, K Faryab', 'Hong, Jack', 'Liu, Daniel', 'Mudge, Trevor N', 'Narayanasamy, Satish', 'Tang, Lingjia', 'Yang, Yichen', 'Zamirai, Pedram']",147,156
+EECS 370,TuTh9:00AM-10:30AM,"['Bailey, Jonathan', 'Haye, K Faryab', 'Hong, Jack', 'Liu, Daniel', 'Mudge, Trevor N', 'Narayanasamy, Satish', 'Tang, Lingjia', 'Yang, Yichen', 'Zamirai, Pedram']",151,154
+EECS 373,MoWe1:30PM-3:00PM,"['Dreslinski Jr, Ronald']",58,60
+EECS 376,MoWe10:30AM-12:00PM,"['Lee, Euiwoong']",124,125
+EECS 376,MoWe12:00PM-1:30PM,"['Kamil, Amir']",252,270
+EECS 376,MoWe1:30PM-3:00PM,"['Pettie, Seth']",136,145
+EECS 376,MoWe4:30PM-6:00PM,"['Kamil, Amir']",121,140
+EECS 388,TuTh12:00PM-1:30PM,"['Halderman, J Alex', 'Honeyman, Peter']",111,120
+EECS 388,TuTh1:30PM-3:00PM,"['Halderman, J Alex', 'Honeyman, Peter']",114,120
+EECS 402,TuTh4:30PM-6:00PM,"['Morgan, Andrew Michael']",65,80
+EECS 411,TuTh3:00PM-4:30PM,"['Mortazawi, Amir']",33,40
+EECS 413,MoWe11:30AM-1:00PM,"['Afshari, Ehsan']",63,65
+EECS 414,TuTh1:30PM-3:00PM,"['Najafi, Khalil']",43,105
+EECS 417,TuTh10:00AM-12:00PM,"['Lempka, Scott Francis']",49,50
+EECS 421,MoWe9:00AM-10:30AM,"['Ahmadi, Elaheh']",26,35
+EECS 423,TuTh10:30AM-12:00PM,"['Kanicki, Jerzy']",20,20
+EECS 423,TuTh10:30AM-12:00PM,[],0,0
+EECS 427,MoWe1:30PM-3:00PM,"['Zhang, Zhengya']",66,45
+EECS 428,TuTh9:00AM-10:30AM,"['Jiang, Weiwei', 'Steel, Duncan G']",53,65
+EECS 428,TuTh9:00AM-10:30AM,"['Steel, Duncan G']",0,0
+EECS 434,MoWe3:00PM-4:30PM,"['Islam, Mohammed Nazrul']",19,25
+EECS 434,MoWe3:30PM-5:00PM,"['Islam, Mohammed Nazrul']",0,50
+EECS 435,TuTh9:00AM-10:30AM,"['Grbic, Anthony']",5,20
+EECS 438,WeFr12:00PM-1:00PM,"['Deotare, Parag B']",14,20
+EECS 441,MoWe3:00PM-4:30PM,"['Soloway, Elliot']",32,40
+EECS 441,MoWe4:30PM-6:00PM,"['Soloway, Elliot']",37,40
+EECS 441,TuTh10:30AM-12:00PM,"['Jamin, Sugih']",69,74
+EECS 442,MoWe3:00PM-4:30PM,"['Owens, Andrew']",246,270
+EECS 444,MoWe12:30PM-2:00PM,"['Subramanian, Vijay Gautam']",6,10
+EECS 445,MoWe12:00PM-1:30PM,"['Kutty, Sindhu', 'Wiens, Jenna']",171,240
+EECS 445,MoWe1:30PM-3:00PM,"['Kutty, Sindhu', 'Wiens, Jenna']",114,150
+EECS 452,TuTh10:30AM-12:00PM,"['Revzen, Shai']",19,32
+EECS 455,MoWe9:00AM-10:30AM,"['Stark, Wayne E']",39,55
+EECS 458,Mo1:00PM-3:00PM,"['Claflin, Dennis', 'Fan, Xudong']",85,85
+EECS 460,MoWe1:30PM-3:00PM,"['Seiler, Peter Joseph']",68,75
+EECS 461,TuTh12:00PM-1:30PM,"['Freudenberg, James S']",77,100
+EECS 461,TuTh12:00PM-1:30PM,[],0,0
+EECS 463,TuTh8:30AM-10:30AM,"['Mathieu, Johanna']",34,40
+EECS 467,TuTh10:00AM-11:00AM,"['Gaskell, Peter']",19,48
+EECS 470,MoWe3:30PM-5:00PM,"['Brehob, Mark W B']",67,120
+EECS 473,TuTh10:30AM-12:00PM,"['Brehob, Mark W B']",87,96
+EECS 477,TuTh12:00PM-1:30PM,"['Bodwin, Gregory Michael', 'Yang, Claire']",88,110
+EECS 478,TuTh9:00AM-10:30AM,"['Hayes, John Patrick']",43,64
+EECS 481,TuTh1:30PM-3:00PM,"['Dou, Jeremy', 'Haase, Aidan Joseph', 'Ramzan, Abdullah', 'Tabaddor, Arman', 'Weimer, Westley R']",156,154
+EECS 481,TuTh1:30PM-3:00PM,"['Weimer, Westley R']",0,0
+EECS 482,MoWe10:30AM-12:00PM,"['Aggarwal, Rithik Popat', 'Noble, Brian D']",317,360
+EECS 483,MoWe1:30PM-3:00PMFr12:00PM-1:00PM,"['Apte, Ramchandra Kishor', 'Koneru, Sathvik', 'New, Max']",62,78
+EECS 484,MoWe3:00PM-4:30PM,"['Chang, Caroleen Yueh-Lin', 'Chao, Jen-Chung', 'Honeyman, Peter', 'Prakash, Atul', 'Renton, Amber Elizabeth', 'Zhang, Tianqi']",141,150
+EECS 484,MoWe4:30PM-6:00PM,"['Chang, Caroleen Yueh-Lin', 'Chao, Jen-Chung', 'Honeyman, Peter', 'Prakash, Atul', 'Renton, Amber Elizabeth', 'Zhang, Tianqi']",120,150
+EECS 485,TBATBA,"['DeOrio, Andrew']",135,135
+EECS 485,TuTh10:30AM-12:00PM,"['DeOrio, Andrew']",135,135
+EECS 485,TuTh4:30PM-6:00PM,"['Almomani, Raed']",125,125
+EECS 485,TuTh6:00PM-7:30PM,"['Almomani, Raed']",126,125
+EECS 489,MoWe3:00PM-4:30PM,"['Chowdhury, Mosharaf']",132,120
+EECS 489,TBATBA,"['Chowdhury, Mosharaf']",0,0
+EECS 490,TuTh12:00PM-1:30PM,"['Omar, Cyrus']",96,140
+EECS 491,MoWe1:30PM-3:00PM,"['Madhyastha, Harsha']",58,100
+EECS 492,MoWe1:30PM-3:00PM,"['Fish, Benjamin', 'Garbacea, Georgeta-Cristina']",72,74
+EECS 492,MoWe3:00PM-4:30PM,"['Garbacea, Georgeta-Cristina', 'Mower Provost, Emily']",125,126
+EECS 493,TuTh10:30AM-12:00PM,"['Chan, Mabel', 'Guo, Anhong', 'Guzdial, Mark', 'Lu, Andrew', 'Wang, Xu']",126,126
+EECS 493,TuTh4:30PM-6:00PM,"['Chan, Mabel', 'Guo, Anhong', 'Guzdial, Mark', 'Lu, Andrew', 'Wang, Xu']",145,144
+EECS 493,TuTh9:00AM-10:30AM,"['Chan, Mabel', 'Guo, Anhong', 'Guzdial, Mark', 'Lu, Andrew', 'Wang, Xu']",129,130
+EECS 494,MoWe11:30AM-1:30PM,"['Epstein, Brianna Diana', 'Yarger, Austin David', 'Zhou, Andrew']",69,74
+EECS 495,MoWe12:00PM-1:30PM,"['Chesney, David R']",43,52
+EECS 496,Fr2:30PM-4:30PM,"['Ackerman, Mark', 'Gerdov, Alan', 'Huffaker, Jordan']",401,400
+EECS 497,MoWe11:30AM-1:30PM,"['Cho, Tim', 'Mo, Emily', 'Ringenberg, Jeff']",218,258
+EECS 498,Mo4:00PM-6:50PM,"['Ali, Mustafa Javed', 'Landwehr, Carl']",5,15
+EECS 498,MoWe10:30AM-12:00PM,"['Avestruz, Al-Thaddeus', 'Cui, Xiaofan']",24,35
+EECS 498,MoWe10:30AM-12:00PM,"['Sample, Alanson', 'Su, Yang Hsi']",5,25
+EECS 498,MoWe12:00PM-1:30PM,"['Das, Reetuparna']",42,60
+EECS 498,MoWe1:30PM-3:00PM,"['Clarke, Christopher Shamar', 'Mars, Jason']",61,74
+EECS 498,MoWe1:30PM-3:00PM,"['Qu, Qing', 'Ritchie, Alexander']",13,50
+EECS 498,MoWe3:00PM-4:30PM,"['Berenson, Dmitry', 'Liu, Tianyi']",66,60
+EECS 498,MoWe3:00PM-4:30PM,"['Berenson, Dmitry']",0,0
+EECS 498,TBATBA,"['Noble, Brian D']",123,238
+EECS 498,TuTh10:30AM-12:00PM,"['Bansal, Nikhil']",2,20
+EECS 498,TuTh10:30AM-12:00PM,"['Manerkar, Yatin A']",1,25
+EECS 498,TuTh1:30PM-3:00PM,"['Gryak, Jonathan', 'Jagadish, H V']",3,0
+EECS 498,TuTh1:30PM-3:00PM,"['Saranurak, Thatchaphol']",6,25
+EECS 498,TuTh3:00PM-4:30PM,"['Wang, Xinyu', 'Zhu, Yuanli']",9,25
+EECS 501,TuTh1:30PM-3:00PM,"['Ying, Lei']",146,156
+EECS 505,Fr1:00PM-2:30PMFr2:30PM-4:00PMFr2:30PM-4:00PM,"['Nadakuditi, Raj Rao']",201,195
+EECS 505,Fr1:00PM-4:00PM,"['Nadakuditi, Raj Rao']",0,0
+EECS 507,TuTh3:00PM-4:30PM,"['Zhang, Pei']",27,40
+EECS 515,MoWe3:00PM-5:00PM,"['Gianchandani, Yogesh B']",6,24
+EECS 515,TBATBA,"['Gianchandani, Yogesh B']",0,0
+EECS 516,TuTh3:30PM-5:00PM,"['Liu, Zhongming']",35,50
+EECS 517,MoWe9:00AM-10:30AM,"['Kushner, Mark']",18,28
+EECS 520,MoWe12:00PM-1:30PM,"['Zhong, Zhaohui']",40,45
+EECS 523,TuTh1:00PM-3:00PM,"['Kanicki, Jerzy', 'Lee, Eric Yeu-Jer']",30,65
+EECS 523,TuTh1:00PM-3:00PM,"['Kanicki, Jerzy']",0,0
+EECS 529,TuTh10:30AM-12:00PM,"['Bhattacharya, Pallab K']",15,23
+EECS 530,TuTh1:00PM-2:30PM,"['Nasr, Abdelhamid', 'Sarabandi, Kamal']",21,30
+EECS 530,TuTh1:00PM-2:30PM,"['Sarabandi, Kamal']",0,0
+EECS 537,MoWeFr10:30AM-11:30AM,"['Cui, Liangqing', 'Norris, Theodore B']",28,40
+EECS 537,MoWeFr10:30AM-11:30AM,"['Norris, Theodore B']",0,0
+EECS 538,MoWe9:00AM-10:30AM,"['Winful, Herbert Graves']",27,32
+EECS 540,TuTh9:00AM-10:30AM,"['Hanish, Josey', 'Kira, Mackillo']",16,35
+EECS 540,TuTh9:00AM-10:30AM,"['Kira, Mackillo']",0,0
+EECS 542,MoWe10:30AM-12:00PM,"['Fouhey, David Ford', 'Sui, Haochen']",53,1
+EECS 544,MoWe12:30PM-2:00PM,"['Subramanian, Vijay Gautam']",26,40
+EECS 545,MoWe10:30AM-12:00PM,"['Du, Zhe', 'Scott, Clayton D', 'Wang, Yu', 'Weitze, Jack', 'Zhu, Haonan']",136,200
+EECS 545,MoWe10:30AM-12:00PM,"['Scott, Clayton D']",0,0
+EECS 545,MoWe9:00AM-10:30AM,"['Du, Zhe', 'Hero III, Alfred O', 'Wang, Yu', 'Weitze, Jack', 'Zhu, Haonan']",131,200
+EECS 548,Mo1:00PM-2:30PM,"['Adar, Eytan']",48,50
+EECS 549,Tu4:00PM-6:00PM,"['Jurgens, David']",84,150
+EECS 550,TuTh4:00PM-5:30PM,"['Pradhan, S Sandeep']",38,48
+EECS 551,TuTh9:00AM-10:30AM,"['Fessler, Jeffrey A']",130,60
+EECS 552,MoWe5:00PM-6:30PM,"['Islam, Mohammed Nazrul']",6,25
+EECS 554,MoWe1:30PM-3:00PM,"['Mahdavifar, Hessam']",38,48
+EECS 558,TuTh10:30AM-12:00PM,"['Anastasopoulos, Achilleas']",13,50
+EECS 560,MoWeFr4:30PM-5:30PM,"['Gillespie, Brent']",124,145
+EECS 571,MoWe10:30AM-12:00PMFr10:30AM-11:30AM,"['Pese, Mert Dieter', 'Shin, Kang Geun']",27,45
+EECS 571,MoWe10:30AM-12:00PMFr10:30AM-11:30AM,"['Shin, Kang Geun']",0,0
+EECS 573,MoWe9:00AM-10:30AM,"['Austin, Todd M', 'McCrabb, Andrew']",39,50
+EECS 573,MoWe9:00AM-10:30AM,"['Austin, Todd M']",0,0
+EECS 574,MoWe3:00PM-4:30PM,"['Cheraghchi, Mahdi']",64,75
+EECS 575,MoWe9:00AM-10:30AM,"['Grubbs, Paul']",35,62
+EECS 582,MoWe3:00PM-4:30PMFr3:00PM-4:00PM,"['Kasikci, Baris', 'Ma, Jiacheng']",33,1
+EECS 583,MoWe10:30AM-12:30PM,"['Mahlke, Scott', 'Pan, Yunjie', 'Zhang, Ze']",91,1
+EECS 587,TuTh12:00PM-1:30PM,"['Stout, Quentin F']",44,80
+EECS 591,MoWe12:00PM-1:30PM,"['Kapritsos, Manos', 'Zhang, Tony']",21,1
+EECS 591,MoWe12:00PM-1:30PM,"['Kapritsos, Manos']",0,0
+EECS 592,MoWe9:00AM-10:30AMFr9:00AM-10:00AM,"['Li, Zun', 'Wang, Lu']",56,78
+EECS 595,We1:30PM-3:00PMFr3:00PM-4:30PM,"['Chai, Joyce', 'Storks, Shane', 'Yu, Keunwoo']",106,1
+EECS 598,MoWe10:30AM-12:00PM,"['Sample, Alanson', 'Su, Yang Hsi']",21,25
+EECS 598,MoWe10:30AM-12:00PM,"['Sample, Alanson']",0,0
+EECS 598,MoWe12:00PM-1:30PM,"['Das, Reetuparna']",48,60
+EECS 598,MoWe12:00PM-1:30PM,"['Kim, Hun Seok']",46,60
+EECS 598,MoWe1:30PM-3:00PM,"['Hofmann, Heath']",12,16
+EECS 598,MoWe3:00PM-4:30PM,"['Balzano, Laura']",30,45
+EECS 598,Th10:30AM-12:00PM,"['Fouhey, David Ford', 'Sample, Alanson']",29,1
+EECS 598,Th10:30AM-12:00PM,"['Sample, Alanson']",1,0
+EECS 598,TuTh10:30AM-12:00PM,"['Bansal, Nikhil']",12,30
+EECS 598,TuTh10:30AM-12:00PM,"['Manerkar, Yatin A']",12,25
+EECS 598,TuTh1:30PM-3:00PM,"['Saranurak, Thatchaphol']",8,25
+EECS 598,TuTh2:30PM-4:00PM,"['Liu, Jie', 'Welch, Joshua']",5,14
+EECS 598,TuTh2:30PM-4:00PM,"['Welch, Joshua']",0,0
+EECS 598,TuTh3:00PM-4:30PM,"['Banovic, Nikola', 'Ramesh, Divya']",45,40
+EECS 598,TuTh3:00PM-4:30PM,"['Banovic, Nikola']",1,0
+EECS 598,TuTh3:00PM-4:30PM,"['Wang, Xinyu', 'Zhu, Yuanli']",7,25
+EECS 598,TuTh3:00PM-4:30PM,"['Wang, Xinyu']",0,0
+EECS 598,We4:30PM-5:30PM,"['Hofmann, Heath', 'Liu, Mingyan']",53,80
+EECS 644,MoWe10:00AM-11:30AM,"['Polk, Thad']",14,12
+ENGR 101,TBATBA,"['Alford, Laura']",542,532
+ENGR 101,TBATBA,"['Burdick, Laura']",182,180
+ENGR 151,TuTh12:00PM-1:30PM,"['Thomas, Alexander George Roy']",205,220
