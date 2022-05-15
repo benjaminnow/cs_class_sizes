@@ -14583,63 +14583,63 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">&#182;</a></h2><ul>
-<li>Introduction and Motivation</li>
-<li>Data Collection<ul>
-<li>Class Sizes Data<ul>
-<li>University of Maryland<ul>
-<li>Cleaning UMD Data</li>
+<li><a href="#Introduction-and-Motivation">Introduction and Motivation</a></li>
+<li><a href="#Data-Collection">Data Collection</a><ul>
+<li><a href="#Class-Sizes-Data">Class Sizes Data</a><ul>
+<li><a href="#University-of-Maryland">University of Maryland</a><ul>
+<li><a href="#Cleaning-UMD-Data">Cleaning UMD Data</a></li>
 </ul>
 </li>
-<li>Georgia Tech<ul>
-<li>Cleaning Georgia Tech Data</li>
+<li><a href="#Georgia-Tech">Georgia Tech</a><ul>
+<li><a href="#Cleaning-Georgia-Tech-Data">Cleaning Georgia Tech Data</a></li>
 </ul>
 </li>
-<li>University of Washington<ul>
-<li>Cleaning Washington Data</li>
+<li><a href="#University-of-Washington">University of Washington</a><ul>
+<li><a href="#Cleaning-Washington-Data">Cleaning Washington Data</a></li>
 </ul>
 </li>
-<li>University of Michigan<ul>
-<li>Cleaning Michigan Data</li>
+<li><a href="#University-of-Michigan">University of Michigan</a><ul>
+<li><a href="#Cleaning-Michigan-Data">Cleaning Michigan Data</a></li>
 </ul>
 </li>
-<li>University of California Berkeley<ul>
-<li>Cleaning Berkeley Data</li>
+<li><a href="#University-of-California-Berkeley">University of California Berkeley</a><ul>
+<li><a href="#Cleaning-Berkeley-Data">Cleaning Berkeley Data</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li>Faculty Counts by Institution</li>
-<li>Degrees Conferred by Institution<ul>
-<li>Notes About a Few Schools</li>
+<li><a href="#Faculty-Counts-by-Institution">Faculty Counts by Institution</a></li>
+<li><a href="#Degrees-Conferred-by-Institution">Degrees Conferred by Institution</a><ul>
+<li><a href="#Notes-About-a-Few-Schools">Notes About a Few Schools</a></li>
 </ul>
 </li>
-<li>Rankings</li>
-<li>School Alumni</li>
-<li>School Cost</li>
-<li>School Abbreviations</li>
+<li><a href="#Rankings">Rankings</a></li>
+<li><a href="#School-Alumni">School Alumni</a></li>
+<li><a href="#School-Cost">School Cost</a></li>
+<li><a href="#School-Abbreviations">School Abbreviations</a></li>
 </ul>
 </li>
-<li>Data Representation<ul>
-<li>Degrees Conferred to Estimated CS Major Count</li>
-<li>Cost by School</li>
-<li>Combining Dataframes</li>
+<li><a href="#Data-Representation">Data Representation</a><ul>
+<li><a href="#Degrees-Conferred-to-Estimated-CS-Major-Count">Degrees Conferred to Estimated CS Major Count</a></li>
+<li><a href="#Cost-by-School">Cost by School</a></li>
+<li><a href="#Combining-Dataframes">Combining Dataframes</a></li>
 </ul>
 </li>
-<li>Exploratory Data Analysis and Hypothesis Testing<ul>
-<li>Violin Plot of 5 Schools' Lecture Sizes</li>
-<li>Lecture Sizes of 5 Schools Based on Scraped Data</li>
-<li>Student to Faculty Ratio based on CSRankings Faculty Counts and Estimated Majors</li>
-<li>Average Student:Faculty Ratio at Public and Private Universities</li>
-<li>Dollars of Estimated Tuition Income Per Faculty</li>
-<li>School Ranking vs. Student:Faculty Ratio</li>
-<li>USNews Ranking vs. CSRankings Ranking</li>
-<li>School Ranking vs. Alumni in Big Tech</li>
+<li><a href="#Exploratory-Data-Analysis-and-Hypothesis-Testing">Exploratory Data Analysis and Hypothesis Testing</a><ul>
+<li><a href="#Violin-Plot-of-5-Schools&#39;-Lecture-Sizes">Violin Plot of 5 Schools' Lecture Sizes</a></li>
+<li><a href="#Lecture-Sizes-of-5-Schools-Based-on-Scraped-Data">Lecture Sizes of 5 Schools Based on Scraped Data</a></li>
+<li><a href="#Student-to-Faculty-Ratio-based-on-CSRankings-Faculty-Counts-and-Estimated-Majors">Student to Faculty Ratio based on CSRankings Faculty Counts and Estimated Majors</a></li>
+<li><a href="#Average-Student:Faculty-Ratio-at-Public-and-Private-Universities">Average Student:Faculty Ratio at Public and Private Universities</a></li>
+<li><a href="#Dollars-of-Estimated-Tuition-Income-Per-Faculty">Dollars of Estimated Tuition Income Per Faculty</a></li>
+<li><a href="#School-Ranking-vs.-Student:Faculty-Ratio">School Ranking vs. Student:Faculty Ratio</a></li>
+<li><a href="#USNews-Ranking-vs.-CSRankings-Ranking">USNews Ranking vs. CSRankings Ranking</a></li>
+<li><a href="#School-Ranking-vs.-Alumni-in-Big-Tech">School Ranking vs. Alumni in Big Tech</a></li>
 </ul>
 </li>
-<li>Conclusion<ul>
-<li>Limitations</li>
-<li>Insights</li>
-<li>Further Research</li>
+<li><a href="#Conclusion">Conclusion</a><ul>
+<li><a href="#Limitations">Limitations</a></li>
+<li><a href="#Insights">Insights</a></li>
+<li><a href="#Further-Research">Further Research</a></li>
 </ul>
 </li>
 </ul>
@@ -14650,7 +14650,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Introduction-and-Motivation">Introduction and Motivation<a class="anchor-link" href="#Introduction-and-Motivation">&#182;</a></h2><p>Society is filled with rankings. There are rankings for high schools, towns, ice cream stores, and sports teams among countless other things. The people who make these rankings use some kind of formula to determine which things are ranked highly and which are not. Computer science also has rankings among professors and departments. The two main rankings of computer science departments are by USNews and CSRankings.org. The goal of both of these rankings is to tell the public how “good” each department is at computer science research. The keywords here are “computer science research”.</p>
+<h2 id="Introduction-and-Motivation">Introduction and Motivation<a class="anchor-link" href="#Introduction-and-Motivation">&#182;</a></h2><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Society is filled with rankings. There are rankings for high schools, towns, ice cream stores, and sports teams among countless other things. The people who make these rankings use some kind of formula to determine which things are ranked highly and which are not. Computer science also has rankings among professors and departments. The two main rankings of computer science departments are by USNews and CSRankings.org. The goal of both of these rankings is to tell the public how “good” each department is at computer science research. The keywords here are “computer science research”.</p>
 <p>It is strange that prospective CS students use these rankings to determine where to go to school given the fact that only a few undergraduates will participate in computer science research. They’re not wrong that being good at computer science research should also mean that the department is good for undergraduate education, but there’s a lot missing. This report aims to explore some of the factors more relevant to undergraduate CS students when deciding where to attend for the best <em>undergraduate</em> education and common <em>undergraduate</em> goals.</p>
 <p>In this report, I collected the following datasets about the top 30 CS schools according to CSRankings.org:</p>
 <ul>
@@ -14661,7 +14662,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <li>School Alumni for 30 schools at 5 Big Tech companies</li>
 <li>School Costs for 30 schools</li>
 </ul>
-<p>Insights and commentary will be provided throughout the report and in the conclusion section. I hope that this report motivates CS departments to enhance their undergraduate educational offerings and for prospective CS students to look at a couple more factors before deciding where to attend. If there are any inaccuracies, please reach out to me via my email listed at the top.</p>
+<p>Insights and commentary will be provided throughout the report. I hope that this report motivates CS departments to enhance their undergraduate educational offerings and for prospective CS students to look at a couple more factors before deciding where to attend. If there are any inaccuracies, please reach out to me via my email listed at the top.</p>
+<p>This report was inspired by a similar report done in 2017 for this class and is meant to expand on some of the areas they explored: <a href="https://krixly.github.io/">https://krixly.github.io/</a></p>
 
 </div>
 </div>
@@ -14669,18 +14671,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Data-Collection">Data Collection<a class="anchor-link" href="#Data-Collection">&#182;</a></h2>
+<h2 id="Data-Collection">Data Collection<a class="anchor-link" href="#Data-Collection">&#182;</a></h2><p><a href="#Table-of-Contents">Table of Contents</a></p>
+
 </div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Class-Sizes-Data">Class Sizes Data<a class="anchor-link" href="#Class-Sizes-Data">&#182;</a></h3><p>As a UMD student, we have <a href="https://app.testudo.umd.edu/soc/">Testudo</a> which lists our schedule of classes with their associated class sizes. I can scrape this page to get the CS class sizes at UMD. I assumed other public universities would have similar systems but they would all be different and would take time for me to learn. To solve this problem, I made several Reddit posts asking for similar systems to Testudo at other universities on their associated subreddits. Students on Reddit were very helpful and gave me tips on how to get what I was looking for, and this saved me a lot of time.</p>
+<h3 id="Class-Sizes-Data">Class Sizes Data<a class="anchor-link" href="#Class-Sizes-Data">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>As a UMD student, we have <a href="https://app.testudo.umd.edu/soc/">Testudo</a> which lists our schedule of classes with their associated class sizes. I can scrape this page to get the CS class sizes at UMD. I assumed other public universities would have similar systems but they would all be different and would take time for me to learn. To solve this problem, I made several Reddit posts asking for similar systems to Testudo at other universities on their associated subreddits. Students on Reddit were very helpful and gave me tips on how to get what I was looking for, and this saved me a lot of time.</p>
 <p>I had time to scrape data for 5 universities, and I plan to expand this list eventually:</p>
 <ul>
 <li>University of Maryland</li>
-<li>Georgia Tech</li>
+<li>Georgia Insitute of Technology</li>
 <li>University of Washington</li>
 <li>University of Michigan</li>
 <li>University of California Berkeley</li>
@@ -14692,10 +14696,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="University-of-Maryland">University of Maryland<a class="anchor-link" href="#University-of-Maryland">&#182;</a></h4><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/umd/umd_combined.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/umd/umd_combined.csv</a></p>
+<h4 id="University-of-Maryland">University of Maryland<a class="anchor-link" href="#University-of-Maryland">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/umd/umd_combined.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/umd/umd_combined.csv</a></p>
 <p>UMD students created a website called PlanetTerp which has course reviews, instructor reviews, and grade distribution data. I used their public API to get CS course enrollment information for the fall 2021 semester. Their api documentation can be found here: <a href="https://api.planetterp.com/#planetterp-api">https://api.planetterp.com/#planetterp-api</a></p>
-<p>The first step was getting a list of CS courses offered by UMD, and I did this by calling their "courses" endpoint and searching for CS classes which are prefixed with "CMSC" at UMD. I changed the default class return limit to 300 because UMD has offered over 100 different CS courses over the years. I also extract the professors which have taught each of these courses over the years because this will help me determine section sizes for the fall 2021 semester.</p>
-<p>I then use PlanetTerp's "grades" endpoint to get the course grades for the fall 2021 semester of a certain course with a certain professor. If that professor wasn't teaching that semester but has taught in the past, the api would return 0 for them. This endpoint returns all the sections of that professor, which for some courses is the sizes of a bunch of their discussions. Some cleaning of the data needs to be done to get their lecture size.</p>
+<p>The first step was getting a list of CS courses offered by UMD, and I did this by calling their <code>courses</code> endpoint and searching for CS classes which are prefixed with "CMSC" at UMD. I changed the default class return limit to 300 because UMD has offered over 100 different CS courses over the years. I also extract the professors which have taught each of these courses over the years because this will help me determine section sizes for the fall 2021 semester.</p>
+<p>I then use PlanetTerp's <code>grades</code> endpoint to get the course grades for the fall 2021 semester of a certain course with a certain professor. If that professor wasn't teaching that semester but has taught in the past, the api would return 0 for them. This endpoint returns all the sections of that professor, which for some courses is the sizes of a bunch of their discussions. Some cleaning of the data needs to be done to get their lecture size.</p>
 <p>I will not be running and showing the output of the scraper below since it takes a while to complete. The "umd.csv" generated will be shown in the following code cell.</p>
 
 </div>
@@ -14930,7 +14935,8 @@ courses_df.to_csv(&quot;umd.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Cleaning-UMD-Data">Cleaning UMD Data<a class="anchor-link" href="#Cleaning-UMD-Data">&#182;</a></h5><p>The list of discussion sections for each professor needs to be combined by professor and course to get the lecture size of that course for that professor.</p>
+<h5 id="Cleaning-UMD-Data">Cleaning UMD Data<a class="anchor-link" href="#Cleaning-UMD-Data">&#182;</a></h5><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>The list of discussion sections for each professor needs to be combined by professor and course to get the lecture size of that course for that professor.</p>
 
 </div>
 </div>
@@ -15070,8 +15076,9 @@ courses_df.to_csv(&quot;umd.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Georgia-Tech">Georgia Tech<a class="anchor-link" href="#Georgia-Tech">&#182;</a></h4><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/gatech/gatech.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/gatech/gatech.csv</a></p>
-<p>Georgia Tech has a public class registry called Oscar located at:  <a href="https://oscar.gatech.edu/">https://oscar.gatech.edu/</a>. The user can search for all CS courses in a specific term and Oscar will generate a static HTML page response that can be scraped for data. However, it takes a long time for this query to execute so I saved this HTML page locally to then be loaded by my program later. I used the Python package <a href="https://github.com/spulec/uncurl">Uncurl</a> to generate the appropriate POST request. My code to get the HTML is below:</p>
+<h4 id="Georgia-Tech">Georgia Tech<a class="anchor-link" href="#Georgia-Tech">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/gatech/gatech.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/gatech/gatech.csv</a></p>
+<p>Georgia Tech has a public class registry called Oscar located at:  <a href="https://oscar.gatech.edu/">https://oscar.gatech.edu/</a>. The user can search for all CS courses in a specific term and Oscar will generate a static HTML page response that can be scraped for data. However, it takes a long time for this query to execute so I saved this HTML page locally to be loaded by my program later. I used the Python package <a href="https://github.com/spulec/uncurl">Uncurl</a> to generate the appropriate POST request. My code to get the HTML is below:</p>
 
 </div>
 </div>
@@ -15453,7 +15460,8 @@ with open(&quot;problem_links.json&quot;, &quot;w&quot;) as f:
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Cleaning-Georgia-Tech-Data">Cleaning Georgia Tech Data<a class="anchor-link" href="#Cleaning-Georgia-Tech-Data">&#182;</a></h5><p>Some of the classes listed are clearly not lectures, so I want to filter to classes which are "Lecture" and have &gt; 0.0 credits and have students enrolled.</p>
+<h5 id="Cleaning-Georgia-Tech-Data">Cleaning Georgia Tech Data<a class="anchor-link" href="#Cleaning-Georgia-Tech-Data">&#182;</a></h5><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Some of the classes listed are clearly not lectures, so I want to filter to classes which are "Lecture" and have &gt; 0.0 credits and have students enrolled.</p>
 
 </div>
 </div>
@@ -15644,8 +15652,9 @@ with open(&quot;problem_links.json&quot;, &quot;w&quot;) as f:
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="University-of-Washington">University of Washington<a class="anchor-link" href="#University-of-Washington">&#182;</a></h4><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/uwash/uwash.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/uwash/uwash.csv</a></p>
-<p>Similarly to Georgia Tech, the University of Washington's class registry generates an HTML file which can be scraped for CS class sizes. This time, the class sizes are listed directly under the course. However, lecture sizes and discussion sizes are listed in the same area, so some logic has to be applied to only extract the lecture sizes. Also, the HTML page is generated in a somewhat difficult way for parsing.</p>
+<h4 id="University-of-Washington">University of Washington<a class="anchor-link" href="#University-of-Washington">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/uwash/uwash.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/uwash/uwash.csv</a></p>
+<p>Similarly to Georgia Tech, the <a href="https://www.washington.edu/students/timeschd/AUT2021/cse.html">University of Washington's class registry</a> generates an HTML file which can be scraped for CS class sizes. This time, the class sizes are listed directly under the course. However, lecture sizes and discussion sizes are listed in the same area, so some logic has to be applied to only extract the lecture sizes. Also, the HTML page is generated in a somewhat difficult way for parsing.</p>
 <p>I had to get distinct classes by splitting on a class header element. Between class header elements were tables which listed lecture and discussion sizes. These are the associated tables for the class that I would parse to extract lecture sizes. To differentiate between lecture and discussion, I would check if the "credits" in the table for the discussion/lecture is numeric, and if it was numeric that would mean that that table was associated with a lecture. I would then use regex to get the class size.</p>
 <p>Below is the code which generates the csv file for Washington.</p>
 
@@ -15920,7 +15929,8 @@ classes_df.to_csv(&quot;uwash.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Cleaning-Washington-Data">Cleaning Washington Data<a class="anchor-link" href="#Cleaning-Washington-Data">&#182;</a></h5><p>Some classes have 0 students enrolled so I'll filter for classes which have a non-zero enrollment.</p>
+<h5 id="Cleaning-Washington-Data">Cleaning Washington Data<a class="anchor-link" href="#Cleaning-Washington-Data">&#182;</a></h5><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Some classes have 0 students enrolled so I'll filter for classes which have a non-zero enrollment.</p>
 
 </div>
 </div>
@@ -16075,7 +16085,8 @@ classes_df.to_csv(&quot;uwash.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="University-of-Michigan">University of Michigan<a class="anchor-link" href="#University-of-Michigan">&#182;</a></h4><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/umich/umich_combined.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/umich/umich_combined.csv</a></p>
+<h4 id="University-of-Michigan">University of Michigan<a class="anchor-link" href="#University-of-Michigan">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/umich/umich_combined.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/umich/umich_combined.csv</a></p>
 <p>A Michigan CS professor created <a href="http://crapuler.com">Crapuler</a> to help Michigan students create their class schedules. This website has a special feature if you go to <a href="http://crapuler.com/eecs">http://crapuler.com/eecs</a> which lists all the CS courses. This page is really helpful because it lists the term the course happened, the course code, and how many students were enrolled in the course. The only problem is that the course enrollment totals on this page sum all of the lecture totals. I instead want the counts per lecture per class. To do this, I had to visit this page, extract all the links to the classes, visit those class pages, then extract the lecture data.</p>
 <p>Below is the code which does this:</p>
 
@@ -16382,7 +16393,8 @@ classes_df.to_csv(&quot;umich.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Cleaning-Michigan-Data">Cleaning Michigan Data<a class="anchor-link" href="#Cleaning-Michigan-Data">&#182;</a></h5><p>This looks good, however I noticed that some lectures would be at the same time with the same professors which mean that they should be combined into one lecture. I also noticed that some lectures have 0 enrolled or 0 in course capacity so I'll filter those out. I fixed these problems with the following code.</p>
+<h5 id="Cleaning-Michigan-Data">Cleaning Michigan Data<a class="anchor-link" href="#Cleaning-Michigan-Data">&#182;</a></h5><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>This looks good, however I noticed that some lectures would be at the same time with the same professors which means that they should be combined into one lecture. I also noticed that some lectures have 0 enrolled or 0 in course capacity so I'll filter those out. I fixed these problems with the following code.</p>
 
 </div>
 </div>
@@ -16589,7 +16601,8 @@ result.to_csv(&quot;umich_combined.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="University-of-California-Berkeley">University of California Berkeley<a class="anchor-link" href="#University-of-California-Berkeley">&#182;</a></h4><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/ucb/ucb.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/ucb/ucb.csv</a></p>
+<h4 id="University-of-California-Berkeley">University of California Berkeley<a class="anchor-link" href="#University-of-California-Berkeley">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/ucb/ucb.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/ucb/ucb.csv</a></p>
 <p>I used Berkley's public class registry <a href="https://classes.berkeley.edu">https://classes.berkeley.edu</a> to get class size data. I made a query to get all CS courses and the registrar returned several pages of data. An interesting thing about Berkley's registrar is that it returns all of the data in JSON format which is great for me as a programmer. This made extracting data super easy.</p>
 <p>One assumption I'm making is that each of these class listings is taught by 1 professor. I confirmed that this is a fair assumption to make since my friend at Berkeley said there may be 2 professors listed but only 1 is teaching at a time, or that 1 is the main professor.</p>
 <p>The difficulty came when some CS classes are cross listed with other departments. The CS class listing would have 0 students enrolled and all of the students would be enrolled under the other department name. To remedy this problem, I had to find the cross listed classes links in the CS class json and visit those pages individually to extract the class enrollment data.</p>
@@ -16861,7 +16874,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h5 id="Cleaning-Berkeley-Data">Cleaning Berkeley Data<a class="anchor-link" href="#Cleaning-Berkeley-Data">&#182;</a></h5><p>As you can see, some classes listed are not lectures and some have 0 enrollment. I need to filter for courses with non-zero enrollment and "LEC" type.</p>
+<h5 id="Cleaning-Berkeley-Data">Cleaning Berkeley Data<a class="anchor-link" href="#Cleaning-Berkeley-Data">&#182;</a></h5><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>As you can see, some classes listed are not lectures and some have 0 enrollment. I need to filter for courses with non-zero enrollment and "LEC" type.</p>
 
 </div>
 </div>
@@ -17347,7 +17361,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Faculty-Counts-by-Institution">Faculty Counts by Institution<a class="anchor-link" href="#Faculty-Counts-by-Institution">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/faculty_count.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/faculty_count.csv</a></p>
+<h3 id="Faculty-Counts-by-Institution">Faculty Counts by Institution<a class="anchor-link" href="#Faculty-Counts-by-Institution">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/faculty_count.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/faculty_count.csv</a></p>
 <p>These counts are from <a href="http://csrankings.org/#/index?all&amp;us">http://csrankings.org/#/index?all&amp;us</a>. Since I only had 30 institutions to enter, I just did this manually by copying the values from the table.</p>
 <p>One thing to note is that not all these faculty would necessarily be in the CS departments at their institution. CSRankings is just tracking faculty which have papers accepted in CS related conferences. For example, it is possible for a mechanical engineering professor to be added towards an institution's count if they get a paper accepted to a robotics conference. While these professors may be in different departments, I would still count them towards total CS faculty because CS students can get involved in their projects and could possibly take classes with them.</p>
 
@@ -17573,10 +17588,12 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Degrees-Conferred-by-Institution">Degrees Conferred by Institution<a class="anchor-link" href="#Degrees-Conferred-by-Institution">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/degrees_conferred.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/degrees_conferred.csv</a></p>
+<h3 id="Degrees-Conferred-by-Institution">Degrees Conferred by Institution<a class="anchor-link" href="#Degrees-Conferred-by-Institution">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/degrees_conferred.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/degrees_conferred.csv</a></p>
 <p>Since my project is looking to examine the resources available to CS students at particular institutions, I need to know how many CS students there are at these places. At first I just tried to find how many CS majors there were at each of these institutions. A problem was that many places didn't have this listed publicly and I would have to reach out in private correspondance. I did try reaching out to several schools but only one ended up getting back to me (thanks Professor Sahami at Stanford!).</p>
-<p>If I couldn't get current CS major counts by institution, I needed a source which would be publicly available for all institutions. Thus, I landed on degrees conferred. This is a better source because many universities, public and private, report the degrees they confer at the end of the year by major. They usually do this in their office of institutional research. If the data is not available, many universities also report degrees conferred to the government in the <a href="https://nces.ed.gov/ipeds/">IPEDS</a> system. And then some CS departments also state on their website in usually an "about us" section how many CS degrees they awarded.</p>
+<p>If I couldn't get current CS major counts by institution, I needed a source which would be publicly available for all institutions. Thus, I landed on degrees conferred. This is a better source because many universities, public and private, report the degrees they confer at the end of the year by major. They usually do this in their office of institutional research. If the data is not available, many universities also report degrees conferred to the government in the <a href="https://nces.ed.gov/ipeds/">IPEDS</a> system. And then some CS departments also state on their website, in usually an "about us" section, how many CS degrees they awarded.</p>
 <p>Degrees awarded can be used to make a conservative estimate of how many CS majors are in a department. With the fair assumption that CS is growing more popular every year, the amount of degrees awaded per year multiplied by 4 for all years of students will result in a underestimate of total CS majors.</p>
+<p>Note: CS degrees awarded also tracks degrees like datascience. This is because some schools have separate majors for datascience while some other schools have a datascience track in their CS program.</p>
 <p>I have compiled this data manually and included relevant notes for each data source.</p>
 
 </div>
@@ -17894,7 +17911,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Notes-About-a-Few-Schools">Notes About a Few Schools<a class="anchor-link" href="#Notes-About-a-Few-Schools">&#182;</a></h4><p>Cornell University - Their institutional research website didn't report how many CS degrees were conferred but instead lumped all engineering majors together. IPEDS had old data, so I looked at the Cornell CS department website where they say that they awarded over 300 degrees. I'm going to assume that the website is regularly updated and this is the most recent years' figure.</p>
+<h4 id="Notes-About-a-Few-Schools">Notes About a Few Schools<a class="anchor-link" href="#Notes-About-a-Few-Schools">&#182;</a></h4><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Cornell University - Their institutional research website didn't report how many CS degrees were conferred but instead lumped all engineering majors together. IPEDS had old data, so I looked at the Cornell CS department website where they say that they awarded over 300 degrees. I'm going to assume that the website is regularly updated and this is the most recent years' figure.</p>
 <p>University of Washington - The same thing here as Cornell. Their CS department website said they awarded over 450 degrees and I'm going to assume that this is for the most recent year.</p>
 <p>Most recent year - While many schools had data for the most recent school year, a few only had data up to the 19-20 school year. In the case of NYU, they only had data up to the 18-19 school year. This means their estimated CS majors, if going with the assumption that CS class sizes are only growing, will be more of an underestimate than schools with more recent data.</p>
 
@@ -17904,8 +17922,9 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Rankings">Rankings<a class="anchor-link" href="#Rankings">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/rankings.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/rankings.csv</a></p>
-<p>CS departments are ranked mainly by how much research they output in well known conferences. The two main sources which rank CS departments are CSRankings, which is where I got the faculty count data, and <a href="https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings">USNews</a>. Again, since there were only 30 schools, I collected this data manually from their ranking tables.</p>
+<h3 id="Rankings">Rankings<a class="anchor-link" href="#Rankings">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/rankings.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/rankings.csv</a></p>
+<p>CS departments are ranked mainly by how much research they output in well known conferences. The two main sources which rank CS departments are CSRankings.org, which is where I got the faculty count data, and <a href="https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings">USNews</a>. Again, since there were only 30 schools, I collected this data manually from their ranking tables.</p>
 <p><strong>Note:</strong> This data was collected in March 2022 and some of the rankings for CSRankings may be different as different conferences happen and total paper totals are accounted for.</p>
 
 </div>
@@ -18161,8 +18180,9 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="School-Alumni">School Alumni<a class="anchor-link" href="#School-Alumni">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/school_alumni.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/school_alumni.csv</a></p>
-<p>For many CS students, the goal is to land a job in Big Tech. I've defined Big Tech as the companies Amazon, Apple, Google, Meta, and Microsoft. I collected data manually from LinkedIn on each school's alumni at these companies. One cool feature of LinkedIn is that if you go to a school's profile, then go to the Alumni tab, you'll find a table called "Where they work". For everyone on LinkedIn who has this school listed, it adds their company to the school's where they work table so you can see how many people work at that company from that school.</p>
+<h3 id="School-Alumni">School Alumni<a class="anchor-link" href="#School-Alumni">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/school_alumni.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/school_alumni.csv</a></p>
+<p>For many CS students, the goal is to land a job in Big Tech. I've defined Big Tech as the companies Amazon, Apple, Google, Meta, and Microsoft. I collected data manually from LinkedIn on each school's alumni at these companies. One cool feature of LinkedIn is that if you go to a school's profile, then go to the Alumni tab, you'll find a table called "Where they work". For everyone on LinkedIn who has this school listed, it adds their company to the school's "where they work" table so you can see how many people work at that company from that school.</p>
 <p>One caveat, though, is that not all the people at these tech companies are software engineers. They could be artists, business people, or logistics workers. This data is mostly collected for fun and needs to be taken with a big grain of salt when trying to evaluate big tech placement for each school.</p>
 
 </div>
@@ -18305,7 +18325,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="School-Cost">School Cost<a class="anchor-link" href="#School-Cost">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/cost.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/cost.csv</a></p>
+<h3 id="School-Cost">School Cost<a class="anchor-link" href="#School-Cost">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/cost.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/cost.csv</a></p>
 <p>I collected data on how much undergraduate tuition is at each of these schools. Public schools have in-state and out-of-state rates listed while private schools just have out-of-state costs listed. I collected this data manually from USNews, from their <a href="https://www.usnews.com/best-colleges/rankings/national-universities">national rankings page</a>.</p>
 
 </div>
@@ -18592,7 +18613,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="School-Abbreviations">School Abbreviations<a class="anchor-link" href="#School-Abbreviations">&#182;</a></h3><p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/abbreviations.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/abbreviations.csv</a></p>
+<h3 id="School-Abbreviations">School Abbreviations<a class="anchor-link" href="#School-Abbreviations">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Dataset location: <a href="https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/abbreviations.csv">https://github.com/benjaminnow/cs_class_sizes/blob/main/csdepts/abbreviations.csv</a></p>
 <p>I mapped each school's name to a shorter abbreviation so the following code may be more concise.</p>
 
 </div>
@@ -18817,7 +18839,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Data-Representation">Data Representation<a class="anchor-link" href="#Data-Representation">&#182;</a></h2><p>In this section I'm going to make the data I collected easier to work with. Some of the dataframes can be combined into one. Other dataframes like school alumni and class sizes will have to be kept separate.</p>
+<h2 id="Data-Representation">Data Representation<a class="anchor-link" href="#Data-Representation">&#182;</a></h2><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>In this section I'm going to make the data I collected easier to work with. Some of the dataframes can be combined into one. Other dataframes like school alumni and class sizes will have to be kept separate.</p>
 
 </div>
 </div>
@@ -18825,7 +18848,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Degrees-Conferred-to-Estimated-CS-Major-Count">Degrees Conferred to Estimated CS Major Count<a class="anchor-link" href="#Degrees-Conferred-to-Estimated-CS-Major-Count">&#182;</a></h3><p>I'm going to make a new dataframe with estimated CS major count based on degrees conferred by institution. This will just be multiplying the degrees conferred by 4 to get a conservative estimate.</p>
+<h3 id="Degrees-Conferred-to-Estimated-CS-Major-Count">Degrees Conferred to Estimated CS Major Count<a class="anchor-link" href="#Degrees-Conferred-to-Estimated-CS-Major-Count">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>I'm going to make a new dataframe with estimated CS major count based on degrees conferred by institution. This will just be multiplying the degrees conferred by 4 to get a conservative estimate.</p>
 
 </div>
 </div>
@@ -19057,7 +19081,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Cost-by-School">Cost by School<a class="anchor-link" href="#Cost-by-School">&#182;</a></h3><p>Since public schools have differing in-state and out-of-state rates, I will want to combine these into a single number for my analysis. My assumptions are that public schools are generally good for CS, so students are willing to go out of state for them. This is supported by my own and anecdotal experience at UMD and my friends at other public universities. A safe estimate is that 25% of CS majors at public universities are out of state. Thus to get the cost for public universities it is 0.75(in-state rate) + 0.25(out-of-state rate). I'll make a new dataframe to show the cost by school.</p>
+<h3 id="Cost-by-School">Cost by School<a class="anchor-link" href="#Cost-by-School">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Since public schools have differing in-state and out-of-state rates, I will want to combine these into a single number for my analysis. My assumptions are that public schools are generally good for CS, so students are willing to go out of state for them. This is supported by my own and anecdotal experience at UMD and my friends at other public universities. A safe estimate is that 25% of CS majors at public universities are out of state. Thus to get the cost for public universities it is 0.75(in-state rate) + 0.25(out-of-state rate). I'll make a new dataframe to show the cost by school.</p>
 
 </div>
 </div>
@@ -19382,7 +19407,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Combining-Dataframes">Combining Dataframes<a class="anchor-link" href="#Combining-Dataframes">&#182;</a></h3><p>To make the data easier to work with, I'm going to combine dataframes. I will combine: school rankings, school abbreviations, type, faculty count, estimated cs major count, and school cost into one dataframe.</p>
+<h3 id="Combining-Dataframes">Combining Dataframes<a class="anchor-link" href="#Combining-Dataframes">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>To make the data easier to work with, I'm going to combine dataframes. I will combine: school rankings, school abbreviations, type, faculty count, estimated cs major count, and school cost into one dataframe.</p>
 
 </div>
 </div>
@@ -19799,21 +19825,23 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Exploratory-Data-Analysis-and-Hypothesis-Testing">Exploratory Data Analysis and Hypothesis Testing<a class="anchor-link" href="#Exploratory-Data-Analysis-and-Hypothesis-Testing">&#182;</a></h2>
+<h2 id="Exploratory-Data-Analysis-and-Hypothesis-Testing">Exploratory Data Analysis and Hypothesis Testing<a class="anchor-link" href="#Exploratory-Data-Analysis-and-Hypothesis-Testing">&#182;</a></h2><p><a href="#Table-of-Contents">Table of Contents</a></p>
+
 </div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Violin-Plot-of-5-Schools'-Lecture-Sizes">Violin Plot of 5 Schools' Lecture Sizes<a class="anchor-link" href="#Violin-Plot-of-5-Schools'-Lecture-Sizes">&#182;</a></h3>
+<h3 id="Violin-Plot-of-5-Schools'-Lecture-Sizes">Violin Plot of 5 Schools' Lecture Sizes<a class="anchor-link" href="#Violin-Plot-of-5-Schools'-Lecture-Sizes">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+
 </div>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>First, I need to create the dataset for the violin plot. This means we only need school name and the lecture size for each row. All the other data doesn't in the scraped lecture size data isn't used.</p>
+<p>First, I need to create the dataset for the violin plot. This means we only need school name and the lecture size for each row. All the other information in the scraped lecture size data isn't used.</p>
 
 </div>
 </div>
@@ -19906,7 +19934,7 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>First, let's discuss the similarities. Almost all of the schools seem to have a bulk of their lectures under 250 students. Also, all the schools other than Georgia Tech have a couple mega-lectures, but Berkeley clearly takes the prize in this category with over 1500 students enrolled in their largest lecture.</p>
-<p>Now, the differences. Maryland has mostly small lectures of under 200 students but has a relatively high proportion of lectures in the 250 to 500 student range compared to other schools. Georgia Tech doesn't offer mega-lectures but offers a relatively large proportion of lectures which are in the middle size range of 100-250 students compared to the other schools. Washington has most of it's lectures under 250 students with a large majority under 100 students, which is not similar to other schools. Michigan has two clear peaks of lecture sizes with the first around 50 students and teh second around 175 students. Cal offers a proportionally small amount of small lectures compared to the other schools.</p>
+<p>Now, the differences. Maryland has mostly small to medium lectures of under 200 students but has a relatively high proportion of lectures in the 250 to 500 student range compared to other schools. Georgia Tech doesn't offer mega-lectures but offers a relatively large proportion of lectures which are in the middle size range of 100-250 students compared to the other schools. Washington has most of it's lectures under 250 students with a large majority under 100 students, which is not similar to other schools. Michigan has two clear peaks of lecture sizes with the first around 50 students and teh second around 175 students. Cal offers a proportionally small amount of small lectures compared to the other schools.</p>
 
 </div>
 </div>
@@ -19914,7 +19942,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Lecture-Sizes-of-5-Schools-Based-on-Scraped-Data">Lecture Sizes of 5 Schools Based on Scraped Data<a class="anchor-link" href="#Lecture-Sizes-of-5-Schools-Based-on-Scraped-Data">&#182;</a></h3><p>Here we're going to plot the average lecture size for the scraped data at each of the 5 universities. The faculty in this case are only the professors teaching lectures. This might not be the most meaningful because we saw from the violin plot that there were possible outliers and heavy skew.</p>
+<h3 id="Lecture-Sizes-of-5-Schools-Based-on-Scraped-Data">Lecture Sizes of 5 Schools Based on Scraped Data<a class="anchor-link" href="#Lecture-Sizes-of-5-Schools-Based-on-Scraped-Data">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Here we're going to plot the average lecture size for the scraped data at each of the 5 universities. The faculty in this case are only the professors teaching lectures. This might not be the most meaningful because we saw from the violin plot that there were possible outliers and heavy skew.</p>
 
 </div>
 </div>
@@ -20056,7 +20085,7 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Looking at medians shows a completely different picture. Cal's average lecture size looks to be brought up by a few mega-lectures. Another interesting thing to note is that all schools except Georgia Tech had their median lecture size be lower than their average lecture size. This suggests that for these schools, their averages are brought up by some relatively large lectures. Georgia Tech is interesting because their median is higher than their average. This suggests that they have few large lectures which would increase their average.</p>
+<p>Looking at medians shows a completely different picture. Cal's average lecture size looks to be brought up by a few mega-lectures. Another interesting thing to note is that all schools had their median lecture size be lower than their average lecture size. This suggests that for these schools, their averages are brought up by some relatively large lectures.</p>
 
 </div>
 </div>
@@ -20064,7 +20093,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Student-to-Faculty-Ratio-based-on-CSRankings-Faculty-Counts-and-Estimated-Majors">Student to Faculty Ratio based on CSRankings Faculty Counts and Estimated Majors<a class="anchor-link" href="#Student-to-Faculty-Ratio-based-on-CSRankings-Faculty-Counts-and-Estimated-Majors">&#182;</a></h3><p>I'll add a student:faculty ratio column to the aggregated dataframe cs_depts. Then I'll make a bar plot.</p>
+<h3 id="Student-to-Faculty-Ratio-based-on-CSRankings-Faculty-Counts-and-Estimated-Majors">Student to Faculty Ratio based on CSRankings Faculty Counts and Estimated Majors<a class="anchor-link" href="#Student-to-Faculty-Ratio-based-on-CSRankings-Faculty-Counts-and-Estimated-Majors">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>I'll add a student:faculty ratio column to the aggregated dataframe cs_depts. Then I'll make a bar plot.</p>
 
 </div>
 </div>
@@ -20143,7 +20173,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Average-Student:Faculty-Ratio-at-Public-and-Private-Universities">Average Student:Faculty Ratio at Public and Private Universities<a class="anchor-link" href="#Average-Student:Faculty-Ratio-at-Public-and-Private-Universities">&#182;</a></h3>
+<h3 id="Average-Student:Faculty-Ratio-at-Public-and-Private-Universities">Average Student:Faculty Ratio at Public and Private Universities<a class="anchor-link" href="#Average-Student:Faculty-Ratio-at-Public-and-Private-Universities">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+
 </div>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -20225,7 +20256,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Dollars-of-Estimated-Tuition-Income-Per-Faculty">Dollars of Estimated Tuition Income Per Faculty<a class="anchor-link" href="#Dollars-of-Estimated-Tuition-Income-Per-Faculty">&#182;</a></h3><p>In a hypothetical scenario where all CS students'tuition was divided equally by faculty of the CS department, the following chart shows how much each faculty member would receive in income. Schools with high income per faculty can be considered to have a higher "margin" on their product. They don't have to "sell"(aka. hire as many faculty) as other schools to bring in the same income in undergraduate tuition. This can possibly be seen as representative of the real world where some percentage of undergraduate tuition actually does go to the CS department.</p>
+<h3 id="Dollars-of-Estimated-Tuition-Income-Per-Faculty">Dollars of Estimated Tuition Income Per Faculty<a class="anchor-link" href="#Dollars-of-Estimated-Tuition-Income-Per-Faculty">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>In a hypothetical scenario where all CS students'tuition was divided equally by faculty of the CS department, the following chart shows how much each faculty member would receive in income. Schools with high income per faculty can be considered to have a higher "margin" on their product. They don't have to "sell"(aka. hire as many faculty) as other schools to bring in the same income in undergraduate tuition. This can possibly be seen as representative of the real world where some percentage of undergraduate tuition actually does go to the CS department.</p>
 
 </div>
 </div>
@@ -20304,7 +20336,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="School-Ranking-vs.-Student:Faculty-Ratio">School Ranking vs. Student:Faculty Ratio<a class="anchor-link" href="#School-Ranking-vs.-Student:Faculty-Ratio">&#182;</a></h3><p>Hypothesis: CSRankings is based on research output not undergraduate teaching, so there should be a weak positive correlation between student:faculty ratios and ranking (positive in the sense better=ranking lower numerically). USNews is more of a subjective ranking but also based on research output. I think there will be a stronger positive correlation here because it's more subjective and up to "prestige". More prestigious universities should have less students in their department because they have less space, but they get their prestige through research, so will have a relatively high faculty number.</p>
+<h3 id="School-Ranking-vs.-Student:Faculty-Ratio">School Ranking vs. Student:Faculty Ratio<a class="anchor-link" href="#School-Ranking-vs.-Student:Faculty-Ratio">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Hypothesis: CSRankings is based on research output not undergraduate teaching, so there should be a weak positive correlation between student:faculty ratios and ranking (positive in the sense: better=ranking lower numerically). USNews is more of a subjective ranking but also based on research output. I think there will be a stronger positive correlation here because it's more subjective and up to "prestige". More prestigious universities should have less students in their department because they have less space, but they get their prestige through research, so will have a relatively high faculty number.</p>
 <p>To test this hypothesis I will do a linear regression to see if ranking and student:faculty ratios are positively correlated. I believe linear is the correct model instead of something polynomial because student:faculty ratio should proportionally change relative to ranking. First I'll check my hypothesis using the CSRankings ranks.</p>
 
 </div>
@@ -20670,7 +20703,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="USNews-Ranking-vs.-CSRankings-Ranking">USNews Ranking vs. CSRankings Ranking<a class="anchor-link" href="#USNews-Ranking-vs.-CSRankings-Ranking">&#182;</a></h3><p>Hypothesis: USNews and CSRankings are generally ranking research output, so they should generally be trying to measure the same quantities. Thus, I think there should be a moderately-strong positive correlation between USNews ranking and CSRankings ranking.</p>
+<h3 id="USNews-Ranking-vs.-CSRankings-Ranking">USNews Ranking vs. CSRankings Ranking<a class="anchor-link" href="#USNews-Ranking-vs.-CSRankings-Ranking">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Hypothesis: USNews and CSRankings are generally ranking research output, so they should generally be trying to measure the same quantities. Thus, I think there should be a moderately-strong positive correlation between USNews ranking and CSRankings ranking.</p>
 <p>I'll plot the data and then do statistical analysis to test my hypothesis. The blue line on the plot will be the linear regression line. The red line on the plot will be if both rankings are perfectly correlated. If a school is under the red line, they perform better on the CSRankings Rank than USNews and vice-versa.</p>
 
 </div>
@@ -20869,7 +20903,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="School-Ranking-vs.-Alumni-in-Big-Tech">School Ranking vs. Alumni in Big Tech<a class="anchor-link" href="#School-Ranking-vs.-Alumni-in-Big-Tech">&#182;</a></h3><p>Hypothesis: Higher ranking schools should have a larger standardized amount of their alumni in Big Tech. This is because higher ranking should be a proxy for better students, and Big Tech is presumably looking for the best students to hire. This means that there should be a moderately strong negative correlation since higher ranking is lower numerically.</p>
+<h3 id="School-Ranking-vs.-Alumni-in-Big-Tech">School Ranking vs. Alumni in Big Tech<a class="anchor-link" href="#School-Ranking-vs.-Alumni-in-Big-Tech">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Hypothesis: Higher ranking schools should have a larger standardized amount of their alumni in Big Tech. This is because higher ranking should be a proxy for better students, and Big Tech is presumably looking for the best students to hire. This means that there should be a moderately strong negative correlation since higher ranking is lower numerically.</p>
 <p>I will be standardizing on size of CS department. This means the Alumni number is the alumni in Big Tech per CS major in that department.</p>
 <p>Limitation: Alumni data may include non software engineering alumni.</p>
 
@@ -21067,7 +21102,7 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The statistical calculations confirm the negative correlation with R being around -0.25, but this is a weak negative correlation. The p-value for the F-statistic is also high enough that I wouldn't consider this linear model to be statistically significant.</p>
+<p>The statistical calculations confirm the negative correlation with R being around -0.25, but this is a weak negative correlation instead of the moderatly strong negative correlation I predicted. The p-value for the F-statistic is also high enough that I wouldn't consider this linear model to be statistically significant.</p>
 <p>I'll now do the same plotting and calculations for the CSRankings rank to see if there are different results.</p>
 
 </div>
@@ -21262,17 +21297,7 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">&#182;</a></h3><p>Degrees conferred: There are some schools lacking recent data for degrees conferred which makes their estimated CS major counts more likely to be an undercount. Also, in a perfect world CS departments would report accurate numbers of CS majors. The problem with this is that the numbers can be fudged based on who “counts” as a CS major or when students are allowed to declare CS. These discrepancies between departments would make it an apples to oranges comparison.</p>
-<p>Rankings: I recently saw that USNews has updated their CS department rankings for 2022 from the 2018 version I used. CSRankings also looks to have updated slightly. Some schools have changed spots, but not drastically. If I have time, I’ll update this report with the new data at some point.</p>
-<p>School Alumni: There are way more than 5 companies to work for as a software engineer so I’m taking an extremely limited view of the job market for CS majors. Also, there could be a non-trivial amount of non-CS majors included in this data.</p>
-<p>School Cost: I had to do a very rough approximation of what the average cost would be at public universities by assuming that 25% of students are paying out-of-state. This number definitely doesn’t fit all public universities, with some being much higher and some being lower. I’m not sure how I could get an accurate percentage specifically for CS at these schools. Perhaps a better approximation would have been to get the overall out of state percentage at these public universities, which is probably listed somewhere, and assume that it’s +10% in their CS departments.</p>
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h2><p><a href="#Table-of-Contents">Table of Contents</a></p>
 
 </div>
 </div>
@@ -21280,7 +21305,20 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Insights">Insights<a class="anchor-link" href="#Insights">&#182;</a></h3><ul>
+<h3 id="Limitations">Limitations<a class="anchor-link" href="#Limitations">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>Degrees conferred: There are some schools lacking recent data for degrees conferred which makes their estimated CS major counts more likely to be an undercount. Also, in a perfect world CS departments would report accurate numbers of CS majors. The problem with this is that the numbers can be fudged based on who “counts” as a CS major or when students are allowed to declare CS. These discrepancies between departments would make it an apples to oranges comparison.</p>
+<p>Rankings: I recently saw that USNews has updated their CS department rankings for 2022 from the 2018 version I used. CSRankings also looks to have updated slightly. Some schools have changed spots, but not drastically. If I have time, I’ll update this report with the new data at some point.</p>
+<p>School Alumni: There are way more than 5 companies to work for as a software engineer so I’m taking an extremely limited view of the job market for CS majors. Also, there could be a non-trivial amount of non-CS majors included in this data.</p>
+<p>School Cost: I had to do a very rough approximation of what the average cost would be at public universities by assuming that 25% of students are paying out-of-state. This number definitely doesn’t fit all public universities, with some being much higher and some being lower. Perhaps a better approximation would have been to get the overall out of state percentage at these public universities, which is probably listed somewhere, and assume that it’s +10% in their CS departments.</p>
+
+</div>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Insights">Insights<a class="anchor-link" href="#Insights">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<ul>
 <li><p>Most schools have a couple mega-lectures, usually introductory courses.</p>
 </li>
 <li><p>Median lecture size at the 5 schools was under 70.</p>
@@ -21305,7 +21343,8 @@ classes_df.to_csv(&quot;ucb.csv&quot;)
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Further-Research">Further Research<a class="anchor-link" href="#Further-Research">&#182;</a></h3><p>There are several more schools which have publicly accessible class registry websites that I could scrape for lecture size data. If I have time, I would like to add to the 5 schools that I currently have.</p>
+<h3 id="Further-Research">Further Research<a class="anchor-link" href="#Further-Research">&#182;</a></h3><p><a href="#Table-of-Contents">Table of Contents</a></p>
+<p>There are several more schools which have publicly accessible class registry websites that I could scrape for lecture size data. If I have time, I would like to add to the 5 schools that I currently have.</p>
 <p>It would be cool if CS departments got together in some kind of agreement to become very transparent on all this data so that prospective undergraduates could make the best decision. This would motivate CS departments to do better for their undergraduates too because everything would be out in the open. Perhaps there could be a rankings website that is just dedicated to undergraduate CS rankings (I know a USNews version exists, but I think their methodology is flawed for undergraduate rankings).</p>
 <p>Again, please send comments and corrections to benc@umd.edu</p>
 
